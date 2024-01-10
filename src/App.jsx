@@ -1,10 +1,17 @@
 import './App.css'
 import Navbar from './Layouts/Navbar/Navbar'
+import Proyects from './Pages/Proyects/Proyects'
+import About from './Pages/About/About'
+
+
 function App() {
 
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar/>
+      <About/>
+      <Proyects/>
+
     </>
   )
 }

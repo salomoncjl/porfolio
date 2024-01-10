@@ -1,0 +1,11 @@
+.cont-about{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80vh;
+}
+
+.img-i{
+    width: 300px;
+    border-radius: 50%;
+}
