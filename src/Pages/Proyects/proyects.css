@@ -6,3 +6,21 @@
     height: 100vh;
     flex-direction: column;
 }
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 270px;
+    background-color: rgb(249, 234, 69);
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 0 10px black;
+    gap: 10px;
+}
+.img-proyects{
+    background-color: black;
+    height: 100px;
+    width: 200px;
+}

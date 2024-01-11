@@ -1,0 +1,28 @@
+.button-skill{
+    border: none;
+    background-color: cyan;
+    width: 200px;
+    font-size: 24px;
+}
+.button-full{
+    border-radius: 15px 0 0 15px;
+    border-top: 3px solid rgb(9, 176, 176);
+    border-bottom: 3px solid rgb(9, 176, 176);
+    border-left: 3px solid rgb(9, 176, 176);
+}
+.button-front{
+    border-top: 3px solid rgb(9, 176, 176);
+    border-bottom: 3px solid rgb(9, 176, 176);
+}
+.button-back{
+    border-radius: 0 15px 15px 0;
+    border-top: 3px solid rgb(9, 176, 176);
+    border-bottom: 3px solid rgb(9, 176, 176);
+    border-right: 3px solid rgb(9, 176, 176);
+}
+
+.button-full:hover, .button-front:hover, .button-back:hover{
+    cursor: pointer;
+    box-shadow: 0 0 20px cyan;
+    transition: 0.3s ease-in-out;
+}

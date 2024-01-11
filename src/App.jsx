@@ -2,7 +2,7 @@ import './App.css'
 import Navbar from './Layouts/Navbar/Navbar'
 import Proyects from './Pages/Proyects/Proyects'
 import About from './Pages/About/About'
-
+import Skills from './Pages/Skills/Skills'
 
 function App() {
 
@@ -11,7 +11,7 @@ function App() {
       <Navbar/>
       <About/>
       <Proyects/>
-
+      <Skills/>
     </>
   )
 }
