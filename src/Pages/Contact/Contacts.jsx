@@ -1,8 +1,10 @@
+import './contacts.css'
 
 export default function Contacts() {
   return (
     <>
-        <form action="">
+      <section className='cont-contact'>
+        <form action="" className='form-contact'>
             <label htmlFor="">Apellido </label>
             <input type="text" />
             
@@ -17,6 +19,9 @@ export default function Contacts() {
 
             <button>Enviar!</button>
         </form>
+
+
+      </section>
     </>
   )
 }
